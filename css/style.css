@@ -49,3 +49,49 @@ header{
 main{
     margin-top: 80px;
 }
+
+.container{
+    background: burlywood;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Title{
+    display: flex;
+    width: 1180px;
+    justify-content: flex-start;
+}
+
+.card{
+    width: 1180px;
+    height: 470px;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+}
+
+.columnSX{
+    width: calc(1180px/2 - 10rem);
+    height: 470px;
+}
+
+.gratuita{
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    background-color: #0061ff;
+    color: white;
+    border-color: #0061ff;
+}
+
+.columnDX{
+    width: calc(1180px - 430px);
+}
+
+#jumbo{
+    width: calc(1180px - 430px);
+}
