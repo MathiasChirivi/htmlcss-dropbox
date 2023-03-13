@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colonna{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin: 5px;
+}
+
+.link{
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.inizia{
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    background-color: #0061ff;
+    width: 80px;
+    color: white;
+    border-color: #0061ff;
+}
