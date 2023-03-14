@@ -409,7 +409,65 @@ hr{
     height: calc(100vw / 3)
 }
 
+#colorDropboxAzienda{
+    background-color: rgb(180, 208, 231);
+}
+
 .DropboxAzienda{
+    align-items: center;
+    min-height: 360px;
+    margin: 0 auto;
     width: 1180px;
     display: flex;
 }
+
+.sectionTitleDropbox {
+    color: #61082b;
+    font-size: 30px;
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+.sectionButtonDropbox{
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    background-color: white;
+    width: 200px;
+    color: black;
+    border-color: white;
+}
+
+.dimensionsSection{
+    margin: 90px 0;
+}
+
+#sectionTitleFaq{
+    height: 80px;
+    font-size: 30px;
+}
+
+.domandeFrequenti{
+    max-width: 1180px;
+    margin: 0 auto;
+    border-bottom: 1px solid grey;
+}
+
+.useFaq{
+    height: 80px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faqStrong{
+    font-weight: bolder;
+    
+}
+
+.fa-solid{
+    font-size: medium;
+    margin-right: 20px;
+}
+
