@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     width: 100%;
     height: 80px;
@@ -341,4 +345,71 @@ p{
     width: 30%;
     cursor: pointer;
     font-size: 12px;
+}
+
+.sectionUni{
+    width: 100vw;
+    display: flex;
+}
+
+.ColumnLeft{
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+}
+
+.collaborator{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoUni{
+    width: calc(100% / 2);
+    height: calc(100% / 2) ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.log{
+    width: 80%;
+    filter: invert(1);
+}
+
+.color1{
+    background-color: #a2d39b;
+}
+
+.color2{
+    background-color: #61082b;
+}
+
+.color3{
+    background-color: #0093ce;
+}
+
+.color4{
+    background-color: #ff1c1c;
+}
+
+.centre{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    padding: 3%;
+    overflow-y:auto;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ColumnRight{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3)
+}
+
+.DropboxAzienda{
+    width: 1180px;
+    display: flex;
 }
