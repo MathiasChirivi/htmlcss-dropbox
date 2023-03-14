@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -68,11 +69,11 @@ main{
 }
 
 .card{
-    width: 1180px;
     height: 350px;
     background-color: coral;
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 
 .columnSX{
@@ -152,6 +153,7 @@ form label {
 .colonnaDX{
     width: calc(100%/3);
     margin-left: 10px;
+    padding: 10px;
     border: 5px lightgrey solid;
 }
 
@@ -159,6 +161,7 @@ form label {
     width: calc(100%/3);
     margin-left: 10px;
     margin-right: 10px;
+    padding: 10px;
     border: 5px lightgrey solid;
 }
 
@@ -169,8 +172,14 @@ form label {
     border: 5px lightgrey solid;
 }
 
+.Enterprise{
+    width: 1180px;
+    margin-top: 70px;
+    padding: 10px;
+    border: 5px lightgrey solid;
+}
+
 .hr{
-    width: 100%;
     color: grey;
 }
 
@@ -188,8 +197,11 @@ form label {
 }
 
 hr{
-    width: 40%;
     color: lightgrey;
+}
+
+.Text{
+    text-align:left;
 }
 
 p{
@@ -214,9 +226,119 @@ p{
   }
   
   .list li::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content:"\f00c";
     font-weight: 700;
     color: #0064fa;
     margin-right: 5px;
   }
+  
+.vendite{
+    text-align: center;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.columnSXX{
+    width: calc(1180px - 430px);
+}
+
+#prise{
+    margin-top: 30px;
+}
+
+#for-pay{
+    margin-top: 30px;
+}
+
+#solutions{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.columnDXX{
+    width: calc(1180px/2 - 10rem);
+    text-align: center;
+}
+
+.contatto-dropbox{
+    width: 1180px;
+    margin-top: 70px;
+}
+
+.columnSSXX{
+    width: calc(100%/2);
+    padding: 10px;
+}
+
+.partner-img{
+    width: 500px;
+    height: 500px;
+    background: url(../img/partner.png) no-repeat;
+    background-size: contain;
+}
+
+.columnDDXX{
+    width: calc(100%/2);
+    padding: 10px;
+}
+
+#contattoPartner{
+    margin-top: 60px;
+}
+
+#Dropboxbusiness{
+    margin: 0 auto;
+    display: flex;
+    width: 1180px;
+    justify-content: flex-start;
+}
+
+.sezione1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1180px;
+    margin-top: 50px;
+}
+
+.box{
+    width: calc(100% / 3 - 5em);
+    margin: 0 auto;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.box > .business {
+    width: 100%;
+}
+
+.subTitle1{
+    margin-bottom: 10px;
+}
+
+.subTitle2{
+    font-size: 13px;
+}
+
+.sectionGeneral{
+    width: 1180px;
+    margin: 100px auto;
+}
+
+.sectionTitle{
+    font-size: 30px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.sectionContent{
+    width: 30%;
+    cursor: pointer;
+    font-size: 12px;
+}
