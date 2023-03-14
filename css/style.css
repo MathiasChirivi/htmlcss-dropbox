@@ -471,3 +471,54 @@ hr{
     margin-right: 20px;
 }
 
+footer{
+    min-height: 570px;
+    background-color: #23272a;
+    color: white;
+}
+
+.foot{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.vociFoot{
+    width: 30%;
+    margin-top: 100px;
+}
+
+.spaziaturaDrop{
+    margin-bottom: 20px;
+}
+
+.listDecoration{
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+
+.decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    width: 1180px;
+}
+
+.borderFoot{
+    border-top: 1px solid gray;
+    width: 10%;
+}
+
+.fa-sharp{
+    margin-top: 25px;
+}
+
+.dropdown-btn{
+    background-color: #23272a;
+    color: white;
+}
