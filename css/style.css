@@ -15,7 +15,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .contenitore{
@@ -39,6 +39,7 @@ header{
     margin: 5px;
     padding: 7px;
     text-decoration: none;
+    color: black;
 }
 
 .inizia{
@@ -56,36 +57,34 @@ main{
 }
 
 .container{
-    background: burlywood;
+    background: #b4d0e7;
+    padding-top: 30px;
 }
 
-.box {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.boxSize{
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 #Title{
-    padding-top: 50px;
-    display: flex;
-    width: 1180px;
-    justify-content: flex-start;
+    width: 80%;
+    height: 150px;
+    font-size: 50px;
+    font-weight: 800;
 }
 
 .card{
-    height: 350px;
-    background-color: coral;
+    width: 100%;
+    height: 275px;
     display: flex;
-    flex-direction: row;
-    text-align: left;
 }
 
 .columnSX{
-    width: calc(1180px/2 - 10rem);
+    width: calc(1180px/2);
 }
 
 .subTitle{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .gratuita{
@@ -96,19 +95,21 @@ main{
     color: white;
     border-color: #0061ff;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .columnDX{
-    width: calc(1180px - 430px);
+    width: calc(1180px/2 + 5em);
+    height: 330px;
 }
 
-.fa-solid{
+i.fa-solid.fa-arrow-down{
+    margin-bottom: 10px;
     font-size: 45px;
 }
 
 #jumbo{
-    width: calc(1180px - 430px);
+    width: 100%;
 }
 
 .box1{
@@ -227,7 +228,11 @@ p{
     margin: 5px 0;
     font-size: 15px;
     list-style: none;
-  }
+}
+
+.payNow{
+    color: #0064fa;
+}
   
   .list li::before {
     font-family: "Font Awesome 6 Free";
@@ -289,6 +294,16 @@ p{
 .columnDDXX{
     width: calc(100%/2);
     padding: 10px;
+}
+
+.sectionButtonTrova{
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    color: black;
+    border-color: black;
+    margin-top: 30px;
 }
 
 #contattoPartner{
@@ -400,7 +415,6 @@ p{
 }
 
 hr{
-    margin-top: 40px;
     margin-bottom: 20px;
 }
 
