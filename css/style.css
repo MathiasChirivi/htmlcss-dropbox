@@ -500,6 +500,31 @@ hr{
     font-weight: bolder;
 }
 
+i.fa-solid.fa-chevron-up{
+    display: none;
+}
+
+.useFaq:hover .fa-chevron-down{
+    display: none;
+}
+
+.useFaq:hover .fa-chevron-up{
+    display: block;
+}
+
+.TextGhost{
+    display: none;
+}
+
+.useFaq:hover .TextGhost{
+    display: none;
+}
+
+.useFaq:hover .TextGhost{
+    display: block;
+}
+
+
 .fa-solid{
     font-size: medium;
     margin-right: 20px;
