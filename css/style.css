@@ -395,34 +395,14 @@ p{
     filter: invert(1);
 }
 
-.color1{
-    background-color: #a2d39b;
-}
-
-.color2{
-    background-color: #61082b;
-}
-
-.color3{
-    background-color: #0093ce;
-}
-
-.color4{
-    background-color: #ff1c1c;
-}
-
-.color5{
-    background-color: #d5001f;
-}
-.color6{
-    background-color: #d4b0e7;
-}
-.color7{
-    background-color: #0d2481;
-}
-.color8{
-    background-color:#ffd830 ;
-}
+.color1{background-color: #a2d39b;}
+.color2{background-color: #61082b;}
+.color3{background-color: #0093ce;}
+.color4{background-color: #ff1c1c;}
+.color5{background-color: #d5001f;}
+.color6{background-color: #d4b0e7;}
+.color7{background-color: #0d2481;}
+.color8{background-color:#ffd830 ;}
 
 .centre{
     width: calc(100% / 3);
@@ -494,9 +474,11 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .faqStrong{
+    width: 100%;
     font-weight: bolder;
 }
 
@@ -516,6 +498,11 @@ i.fa-solid.fa-chevron-up{
     display: none;
 }
 
+.Ghost{
+    position: absolute;
+    bottom: 0px;
+}
+
 .useFaq:hover .TextGhost{
     display: none;
 }
@@ -523,7 +510,6 @@ i.fa-solid.fa-chevron-up{
 .useFaq:hover .TextGhost{
     display: block;
 }
-
 
 .fa-solid{
     font-size: medium;
