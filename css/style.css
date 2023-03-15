@@ -8,7 +8,7 @@
 body{
     overflow-x: hidden;
 }
-
+/*HEADER*/
 header{
     width: 100%;
     height: 80px;
@@ -51,7 +51,7 @@ header{
     color: white;
     border-color: #0061ff;
 }
-
+/*MAIN*/
 main{
     margin-top: 80px;
 }
@@ -234,13 +234,13 @@ p{
     color: #0064fa;
 }
   
-  .list li::before {
+.list li::before {
     font-family: "Font Awesome 6 Free";
     content:"\f00c";
     font-weight: 700;
     color: #0064fa;
     margin-right: 5px;
-  }
+}
   
 .vendite{
     text-align: center;
@@ -386,6 +386,10 @@ p{
     align-items: center;
 }
 
+.logoUni:hover{
+    border: 15px solid rgba(255, 255, 255, 0.5);
+}
+
 .log{
     width: 80%;
     filter: invert(1);
@@ -407,11 +411,28 @@ p{
     background-color: #ff1c1c;
 }
 
+.color5{
+    background-color: #d5001f;
+}
+.color6{
+    background-color: #d4b0e7;
+}
+.color7{
+    background-color: #0d2481;
+}
+.color8{
+    background-color:#ffd830 ;
+}
+
 .centre{
     width: calc(100% / 3);
     height: calc(100vw / 3);
     padding: 3%;
     overflow-y:auto;
+}
+
+#DesignitImg{
+    width: 100%;
 }
 
 hr{
@@ -477,14 +498,13 @@ hr{
 
 .faqStrong{
     font-weight: bolder;
-    
 }
 
 .fa-solid{
     font-size: medium;
     margin-right: 20px;
 }
-
+/*FOOTEER*/
 footer{
     min-height: 570px;
     background-color: #23272a;
